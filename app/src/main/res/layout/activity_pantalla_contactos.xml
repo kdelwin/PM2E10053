@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PantallaContactos">
+
+    <ListView
+        android:id="@+id/listcontact"
+        android:layout_width="386dp"
+        android:layout_height="508dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <LinearLayout
+        android:layout_width="348dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/_dynamic">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="160dp"
+            android:layout_height="126dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.037"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/_dynamic"
+            app:layout_constraintVertical_bias="0.225">
+
+            <Button
+                android:id="@+id/btncompartir"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="@string/btncompartir"
+                tools:layout_editor_absoluteX="24dp"
+                tools:layout_editor_absoluteY="543dp" />
+
+            <Button
+                android:id="@+id/btneliminar"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="@string/btneliminar"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="623dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="160dp"
+            android:layout_height="126dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.933"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/_dynamic"
+            app:layout_constraintVertical_bias="0.262">
+
+            <Button
+                android:id="@+id/btnverfoto"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="@string/btnVerFoto"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="543dp" />
+
+            <Button
+                android:id="@+id/btnactualizar"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="@string/btnactualizar"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="623dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnatras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

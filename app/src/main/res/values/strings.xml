@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PM2E10053</string>
+    <string name="title_activity_pantalla_inicial">Pantalla_Inicial</string>
+    <string name="txtnombre">Nombre:</string>
+    <string name="txtpais">Pais:</string>
+    <string name="txtnumero">Telefono:</string>
+    <string name="txtnota">Notas:</string>
+    <string name="txtbtnSalvar">Salvar Contacto</string>
+    <string name="txtbtnContactos">Contactos Salvados</string>
+    <string name="nulo"> </string>
+    <string name="todo">TODO</string>
+    <string name="Respuesta">Registro ingreso con exito</string>
+    <string name="ErrorResp">Error no se pudo registrar</string>
+    <string name="btncompartir">Compartir Contacto</string>
+    <string name="btneliminar">Eliminar Contacto</string>
+    <string name="btnVerFoto">Ver Foto</string>
+    <string name="btnactualizar">Actualizar Contacto</string>
+    <string name="btnatras">Atras</string>
+    
+</resources>
